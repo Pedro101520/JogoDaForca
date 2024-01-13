@@ -31,7 +31,7 @@ public class Programa {
 			}
 			
 			if(letras == '.') {
-				tentativa = input.next();
+				tentativa = input.next().toLowerCase();
 				if(tentativa.equals(palavra)) {
 					System.out.println("Voce acertou ");
 					break;
